@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-fila-com-concorrencia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Processa milhares de itens com N tarefas por vez, resultados na ordem, timeout por tarefa e progresso. Importação e envio em massa sem estourar rate limit nem memória.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
